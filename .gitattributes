@@ -1,0 +1,24 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# Mark common binary file types to avoid line ending conversion
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.ico binary
+
+# Audio
+*.mp3 binary
+*.wav binary
+*.flac binary
+*.ogg binary
+
+# Video
+*.mp4 binary
+*.mkv binary
+*.mov binary
+*.avi binary
